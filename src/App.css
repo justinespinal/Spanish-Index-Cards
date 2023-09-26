@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flash-card{
+  background-color: rgb(124, 229, 124);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.flash-card:hover{
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 0 0 100px rgb(230, 129, 230); 
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upgrade{
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-right: 25px;
+  margin-top: 10px;
+  width: 200px;
+  line-height: 0.5;
+  background-color: black;
+  color: white;
+}
