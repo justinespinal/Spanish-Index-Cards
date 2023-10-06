@@ -99,17 +99,19 @@ function App() {
         <button className='upgrade' onClick={updateQuestionRight}>{rightArrow}</button>
       </div>
       <br/>
-      <label for="answer">Answer:</label>
-      <input 
-        type="text" 
-        id="answer" 
-        name="Name"
-        value={currentAnswer}
-        placeholder=""
-        onChange={(e) => {setCurrentAnswer(e.target.value)}}
-        className="textbox">
-      </input>
-      <button onClick={handleChange}>Check Answer</button>
+      <div className='answer-section'>
+        <label for="answer">Answer:</label>
+        <input 
+          type="text" 
+          id="answer" 
+          name="Name"
+          value={currentAnswer}
+          placeholder=""
+          onChange={(e) => {setCurrentAnswer(e.target.value)}}
+          className="textbox">
+        </input>
+        <button onClick={handleChange} className="answer-button">Check Answer</button>
+      </div>
     </>
   )
 }

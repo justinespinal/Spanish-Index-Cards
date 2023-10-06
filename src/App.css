@@ -42,3 +42,15 @@
   background-color: black;
   color: white;
 }
+
+.answer-button{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+.answer-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
