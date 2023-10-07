@@ -1,8 +1,8 @@
-# Web Development Project 2 - *Spanish Language Review*
+# Web Development Project 3 - *Spanish Language Review*
 
 Submitted by: **Justin Espinal**
 
-This web app: **allows users interested in learning Spanish the ability to review some commonly used day-to-day words!**
+This web app: **allows users interested in learning Spanish the ability to review some commonly used day-to-day words! You can now also enter an answer!**
 
 Time spent: **1** hour spent in total
 
@@ -10,35 +10,39 @@ Time spent: **1** hour spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contain images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [x] *glow feature on cards*
+- [ ] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [x] List anything else that you added to improve the site's functionality!
-  Added a glow feature to the cards to improve the visual appeal of the site!
+* [ ] List anything else that you added to improve the site's functionality!
+
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21pb2w3cGdpeWt2NWFucDlucnNnazEwM21kcjFqaTFqdW1iampzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vhB8iYZ4D7WIFH1fsE/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWlsYTF2MzVidzIwMmdiN3dqZWRlbnl6eGpkN3ZkYnhlNjhuYXJsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A6rJvDvfjWx9xRJ6Av/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif
+GIF created with ...  ScreenToGif
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-My main challenge was using useState, but after some time I was able to get the hang of it!
+My main challenge was remembering how to implement text inputs, but I was able to use resources given by the CodePath team to figure it out!
 
 ## License
 
